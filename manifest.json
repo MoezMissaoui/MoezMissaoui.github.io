@@ -8,7 +8,7 @@
     "description": "My name is Moez Missaoui , and I'm a passionate web developer with years of experience in the tech industry",
     "icons": [
       {
-        "src": "/assets/images/android-chrome.png",
+        "src": "/assets/images/profile-small-rounded.png",
         "sizes": "327x297",
         "type": "image/png"
       }
