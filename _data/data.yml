@@ -3,9 +3,9 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: false # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Moez Missaoui
@@ -45,218 +45,325 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Reading
           link:
 
-        - item: Snowboarding
+        - item: Music
           link:
 
-        - item: Cooking
+        - item: Fishing
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Passionate and motivated web developer with strong programming skills. A key member of the team, I have proven my ability to evaluate and overcome complex programming challenges. Always eager to work with innovative technologies and varied software solutions, I am determined to continually improve my skills and improve myself.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Bachelor in Computer Science
+        university: Faculty of Sciences of Monastir
+        time: 2016
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
+
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: IT Manager
+        time: 09/2023 - Present
+        company: BigDeal - Tunis
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - **Main missions**:
+            Support for the maintenance and continuous improvement of web solutions.
+            Design and development of robust and efficient web applications.
+            Implementation and management of microservices architectures.
+            Collaboration with project teams to ensure the quality and scalability of applications.
+            Technology monitoring to integrate best practices and innovations into projects.
+
+          - **Mastered technologies**:
+            - Framework: Laravel
+            - TALL stack: Tailwind CSS, Alpine.js, Livewire, Laravel
+            - Microservices and distributed architectures
+            - Messaging systems: RabbitMQ
+
+      - role: Senior Web Developer
+        time: 09/2022 - 08/2023
+        company: Quantum Solutions - Tunis
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - **Main missions**: Participation in the creation and evolution of web applications.
+          - **Technologies**: PHP, Laravel, Git, Jira, Docker, Cypress
+
+          - **Example of projects**:
+              - ___October 2022___:
+                Management application for the National Center for Medicine and Sports Sciences.
+                  - Laravel 9, PHP8, html5, css3, javascript, jQuery, Ajax, Bootsrap
+                  - Migrations, Seeds, Factories, Eloquent ORM
+                  - Routing, Middlewares, Request Validations, Authentication
+                  - Blades templating engine
+                  - Multilanguage
+                  - Helpers
+                  - Widgets
+
+              - ___November 2022___:
+                Web Radio application. I participated in this project as the back-end of the project, creating and maintaining various microservices.
+
+              - ___January 2023___:
+                User management microservice: (authentication, authorization).
+                  - Laravel 9, PHP8
+                  - APIs
+                  - Swagger
+                  - Authentication using the JWT token
+                  - Permission management using “GATE Facade”
+                  - Sending emails
+                  - Creation Artisan personalized orders
+                  - Task planning (CRON JOB)
+                  - Unit testing
+
+              - ___February 2023___:
+                Application for managing Zimbra accounts.
+                  - Laravel 9, PHP8
+                  - Elasticsearch
+                  - Redis
+                  - APIs
+                  - Swagger
+                  - Sending emails
+                  - Creation Artisan personalized orders
+                  - Task planning (CRON JOB)
+                  - Unit testing
+
+
+      - role: Senior Web Developer
+        time: 04/2021 - 09/2022
+        company: i4Tech - Tunis
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - **Main missions**: Participation in the creation and evolution of web applications.
+          - **Technologies**: PHP, Laravel, Git, Devops Azure, Docker, Cypress
+
+          - **Example of projects**:
+              - ___April 2021___:
+                1. Vision ERP : Business Management Application.
+                    - Laravel 8, PHP7, html5, css3, javascript, jQuery, Ajax, Bootsrap
+                    - Migrations, Seeds, Factories, Eloquent ORM
+                    - Routing, Middlewares, Request Validations, Authentication
+                    - Blades templating engine
+                    - Multilanguage
+                    - Helpers
+                    - Widgets
+
+                1. Vision OS - Instance management application (Vision ERP) - SaaS.
+                    - NestJS, ReactJS, Typescript, SQL
+                    - TypeORM
+                    - APIs, JWT
+                    - Cron
+
+      - role: Web Developer
+        time: 11/2020 - 03/2021
+        company: OXTON-DIGITAL - Tunis
+        details: |
+          - **Main missions**: Participation in the creation and evolution of web applications.
+          - **Technologies**: PHP, Laravel, Git, Gitlab, Docker
+
+          - **Example of projects**:
+              - ___April 2021___:
+                I walk my dog: Ad management web application.
+                  - Laravel 8, PHP7, html5, css3, javascript, jQuery, Ajax, Bootsrap
+                  - Migrations, Seeds, Factories, Eloquent ORM
+                  - Routing, Middlewares, Request Validations, Authentication
+                  - Blades templating engine
+                  - Multilanguage
+                  - Helpers
+
+      - role: Web Developer
+        time: 06/2017 - 11/2020
+        company: HYPERGROUP - Sfax
+        details: |
+          - **Main missions**: 
+            - Design and development of web applications.
+            - Participation in the redesign and evolution of web applications.
+          - **Frameworks**: Laravel, Codeigniter
+
+          - **Example of projects**:
+              - ___October 2017___:
+                Tribal Deal - Ecommerce web application.
+                  - MVC Model
+                  - Codeigniter, php7, html5, css3, javascript, jQuery, Ajax, Bootstrap
+
+              - ___July 2018___:
+                Le Internship - PFE internship management web application.
+                - MVC Model
+                - codeigniter, php7, html5, css3, javascript, jQuery, Ajax, Bootstrap
+
+              - ___January 2019___:
+                Hyperschool - Tuition management application.
+                - Laravel 6, php7, html5, css3, javascript, jQuery, Ajax, Bootstrap
+                - Migrations, Seeds, Factories, Eloquent ORM
+                - Routing, Middlewares, Request Validations, Authentication
+                - Blades templating engine
+
+              - ___January 2020___:
+                Be The Winner - E-commerce web application.
+                - Laravel 7, php7, html5, css3, javascript, jQuery, Ajax, Bootstrap
+                - Migrations, Seeds, Factories, Eloquent ORM
+                - Routing, Middlewares, Request Validations, Authentication
+                - Blades templating engine
+                - Multilanguage
+                - Helpers
+                - Event / Listener
+
+              - ___September 2020___:
+                Kastello Store - E-commerce web application.
+                - Laravel 7, php7, html5, css3, javascript, jQuery, Ajax, Bootstrap
+                - Migrations, Seeds, Factories, Eloquent ORM
+                - Routing, Middlewares, Request Validations, Authentication
+                - Blades templating engine
+                - Multilanguage
+                - Helpers
+                - Job / Queue
+                - Orders / schedule
+
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Spécialisation en programmation Python 3.
+          start: 2019
+          end: 
+          organization: Coursera - University of Michigan
+          credentialid: 
+          credentialurl: coursera.org
+          credentialname: Coursera
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            - Python Basics (finished).
+            - Python functions, files and dictionaries (finished).
+            - Data collection and processing with Python (finished).
+            - Python classes and inheritance finished).
+            - Python project: pillow, tesseract and opencv (finished).
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
+        - name: Object-Oriented Java Programming (Data Structures and Beyond)
           start: 2019
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: Coursera - University of California San Diego
+          credentialid: 
+          credentialurl: coursera.org
+          credentialname: Coursera
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            - Object-oriented programming in Java (finished).
+            - Data structures and performance (finite).
+            - Advanced Data Structures in Java (finished).
+            - Mastering the Software Engineering Interview (Finished).
+            - Capstone: Social media data analysis (finished).
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: PHP
+        level: 90%
+
+      - name: SQL
+        level: 70%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: Python
+        level: 60%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Docker
         level: 60%
+
+      - name: Alpine JS
+        level: 70%
+
+      - name: Livewire
+        level: 70%
+        
+      - name: Tailwind 
+        level: 50%
+
+      - name: React
+        level: 50%
+
+      - name: Flutter
+        level: 30%
+
+      - name: NestJS
+        level: 50%
