@@ -9,7 +9,7 @@
     "icons": [
       {
         "src": "/assets/images/profile.png",
-        "sizes": "327x297",
+        "sizes": "800x800",
         "type": "image/png"
       }
     ]
