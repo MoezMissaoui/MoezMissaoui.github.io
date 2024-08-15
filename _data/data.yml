@@ -228,10 +228,10 @@ experiences:
 certifications:
       title: Certifications
       list:
-        - name: Spécialisation en programmation Python 3.
+        - name: Spécialisation en programmation Python 3
           start: 2019
           end: 
-          organization: Coursera - University of Michigan
+          organization: University of Michigan
           credentialid: 
           credentialurl: coursera.org
           credentialname: Coursera
@@ -242,10 +242,10 @@ certifications:
             - Python classes and inheritance finished).
             - Python project: pillow, tesseract and opencv (finished).
 
-        - name: Object-Oriented Java Programming (Data Structures and Beyond)
+        - name: Object-Oriented Java Programming
           start: 2019
           end:
-          organization: Coursera - University of California San Diego
+          organization: University of San Diego
           credentialid: 
           credentialurl: coursera.org
           credentialname: Coursera
